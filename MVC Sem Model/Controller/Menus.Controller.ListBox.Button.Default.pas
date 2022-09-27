@@ -1,0 +1,82 @@
+unit Menus.Controller.ListBox.Button.Default;
+
+interface
+
+uses
+  System.Classes, Menus.Controller.Interfaces, FMX.ListBox, FMX.Types;
+
+type
+  TControllerButtonListBoxDefault = class(TInterfacedObject, iControllerListBoxButtonDefault)
+    private
+      FParent : TComponent;
+      FListBoxItem : TListBoxItem;
+    public
+      constructor Create(AOwner : TComponent);
+      destructor Destroy; override;
+      class function New(AOwner : TComponent) : iControllerListBoxButtonDefault;
+      function Name(Value : String) : iControllerListBoxButtonDefault;
+      function Text(Value : String) : iControllerListBoxButtonDefault;
+      function StyleLookup(Value : String) : iControllerListBoxButtonDefault;
+      function onClick(Value : TNotifyEvent) : iControllerListBoxButtonDefault;
+      function Button : TFMXObject;
+  end;
+
+implementation
+
+
+
+{ TControllerButtonListBoxDefault }
+
+function TControllerButtonListBoxDefault.Button: TFMXObject;
+begin
+  Result := FListBoxItem;
+end;
+
+constructor TControllerButtonListBoxDefault.Create(AOwner: TComponent);
+begin
+  FParent := AOwner;
+  FListBoxItem  := TListBoxItem.Create(nil);
+  FListBoxItem.Name := 'btnDefault';
+  FListBoxItem.StyleLookup := 'listboxitemdetaillabel';
+  FListBoxItem.Text := 'Default';
+end;
+
+destructor TControllerButtonListBoxDefault.Destroy;
+begin
+  inherited;
+end;
+
+function TControllerButtonListBoxDefault.Name(
+  Value: String): iControllerListBoxButtonDefault;
+begin
+  Result := Self;
+  FListBoxItem.Name := Value;
+end;
+
+class function TControllerButtonListBoxDefault.New(AOwner : TComponent) : iControllerListBoxButtonDefault;
+begin
+  Result := Self.Create(AOwner);
+end;
+
+function TControllerButtonListBoxDefault.onClick(
+  Value: TNotifyEvent): iControllerListBoxButtonDefault;
+begin
+  Result := Self;
+  FListBoxItem.OnClick := Value;
+end;
+
+function TControllerButtonListBoxDefault.StyleLookup(
+  Value: String): iControllerListBoxButtonDefault;
+begin
+  Result := Self;
+  FListBoxItem.StyleLookup := Value;
+end;
+
+function TControllerButtonListBoxDefault.Text(
+  Value: String): iControllerListBoxButtonDefault;
+begin
+  Result := Self;
+  FListBoxItem.Text := Value;
+end;
+
+end.

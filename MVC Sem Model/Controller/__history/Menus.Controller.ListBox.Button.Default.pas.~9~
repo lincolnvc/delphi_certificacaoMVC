@@ -1,0 +1,79 @@
+unit Menus.Controller.ListBox.Button.Default;
+
+interface
+
+uses
+  System.Classes, Menus.Controller.Interfaces, FMX.ListBox;
+
+type
+  TControllerButtonListBoxDefault = class(TInterfacedObject, iControllerButtonListBoxDefault)
+    private
+      FParent : TComponent;
+      FListBoxItem : TListBoxItem;
+    public
+      constructor Create(AOwner : TComponent);
+      destructor Destroy; override;
+      class function New(AOwner : TComponent) : iControllerButtonListBoxDefault;
+      function Name(Value : String) : iControllerButtonListBoxDefault;
+      function Text(Value : String) : iControllerButtonListBoxDefault;
+      function StyleLookup(Value : String) : iControllerButtonListBoxDefault;
+      function onClick(Value : TNotifyEvent) : iControllerButtonListBoxDefault;
+      function Button : TFMXObject;
+  end;
+
+implementation
+
+
+
+{ TControllerButtonListBoxDefault }
+
+function TControllerButtonListBoxDefault.Button: TFMXObject;
+begin
+  Result := FListBoxItem;
+end;
+
+constructor TControllerButtonListBoxDefault.Create(AOwner: TComponent);
+begin
+  FParent := AOwner;
+  FListBoxItem  := TListBoxItem.Create(FParent);
+  FListBoxItem.Name := 'btnDefault';
+  FListBoxItem.StyleLookup := 'listboxitemdetaillabel';
+  FListBoxItem.Text := 'Default';
+end;
+
+destructor TControllerButtonListBoxDefault.Destroy;
+begin
+  FListBoxItem.Free;
+  inherited;
+end;
+
+function TControllerButtonListBoxDefault.Name(
+  Value: String): iControllerButtonListBoxDefault;
+begin
+  FListBoxItem.Name := Value;
+end;
+
+class function TControllerButtonListBoxDefault.New(AOwner : TComponent) : iControllerButtonListBoxDefault;
+begin
+  Result := Self.Create(AOwner);
+end;
+
+function TControllerButtonListBoxDefault.onClick(
+  Value: TNotifyEvent): iControllerButtonListBoxDefault;
+begin
+  FListBoxItem.OnClick := Value;
+end;
+
+function TControllerButtonListBoxDefault.StyleLookup(
+  Value: String): iControllerButtonListBoxDefault;
+begin
+  FListBoxItem.StyleLookup := Value;
+end;
+
+function TControllerButtonListBoxDefault.Text(
+  Value: String): iControllerButtonListBoxDefault;
+begin
+  FListBoxItem.Text := Value;
+end;
+
+end.

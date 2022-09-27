@@ -1,0 +1,55 @@
+unit Menus.Controller.Interfaces;
+
+interface
+
+uses
+  System.Classes, FMX.Types;
+
+type
+
+
+  iControllerListBoxButtonProduto = interface
+    ['{EEBCEE54-CBEA-4E1F-AA9F-2794070410A9}']
+    function ShowForm : TFMXObject;
+  end;
+
+  iControllerListBoxButtonDefault = interface
+    ['{93430516-231A-4301-95C9-3452EC7ABBB9}']
+    function Name(Value : String) : iControllerListBoxButtonDefault;
+    function Text(Value : String) : iControllerListBoxButtonDefault;
+    function StyleLookup(Value : String) : iControllerListBoxButtonDefault;
+    function onClick(Value : TNotifyEvent) : iControllerListBoxButtonDefault;
+    function Button : TFMXObject;
+  end;
+
+  iControllerListBoxDefault = interface
+    ['{0CD92CF8-F5C4-4781-AFF5-232C0515CD54}']
+    function ItemHeight(Value : Integer) : iControllerListBoxDefault;
+    function AddButton(Value : TFMXObject) : iControllerListBoxDefault;
+    procedure Exibir;
+
+    function ListBox : TFMXObject;
+  end;
+
+  iControllerListBoxButtonFactory = interface
+    ['{2F9C6E1A-6F5A-4861-9759-60D1662E5454}']
+    function Produto(AOwner : TComponent) : iControllerListBoxButtonProduto;
+    function Default(AOwner : TComponent) : iControllerListBoxButtonDefault;
+  end;
+
+  iControllerListBoxMenu = interface
+    ['{E5D8F74A-0D66-4FFA-9CB4-92F60EA55CD0}']
+    procedure Exibir;
+  end;
+
+  iControllerListBoxFactory = interface
+    ['{C1802D30-186B-4B8B-BD54-FF9BEE3C641E}']
+    function Default(AOwner : TComponent) : iControllerListBoxDefault;
+    function Principal(AOwner : TComponent) : iControllerListBoxMenu;
+  end;
+
+
+
+implementation
+
+end.

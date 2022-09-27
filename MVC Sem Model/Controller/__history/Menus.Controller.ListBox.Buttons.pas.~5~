@@ -1,0 +1,50 @@
+unit Menus.Controller.ListBox.Buttons;
+
+interface
+
+uses Menus.Controller.Interfaces, System.Classes, FMX.Types,
+  Menus.Controller.ListBox.Button.Default;
+
+type
+  TControllerListBoxButtons = class(TInterfacedObject,
+    iControllerListBoxButtons)
+  private
+    FParent: TComponent;
+  public
+    constructor Create(AOwner: TComponent);
+    destructor Destroy; override;
+    class function New(AOwner: TComponent): iControllerListBoxButtons;
+    function ExibirProduto: TFMXObject;
+  end;
+
+implementation
+
+{ TControllerListBoxButtons }
+
+constructor TControllerListBoxButtons.Create(AOwner: TComponent);
+begin
+  FParent := AOwner;
+end;
+
+destructor TControllerListBoxButtons.Destroy;
+begin
+
+  inherited;
+end;
+
+function TControllerListBoxButtons.ExibirProduto: TFMXObject;
+begin
+  Result := TControllerButtonListBoxDefault
+              .New(FParent)
+              .Name('btnProduto')
+              .Text('Produtos')
+              .Button;
+end;
+
+class function TControllerListBoxButtons.New(AOwner: TComponent)
+  : iControllerListBoxButtons;
+begin
+  Result := Self.Create(AOwner);
+end;
+
+end.

@@ -1,0 +1,45 @@
+unit Menus.Controller.ListBox.Button.Produto;
+
+interface
+
+uses
+  System.Classes, Menus.Controller.Interfaces;
+
+type
+  TControllerListBoxButtonProduto = class(TInterfacedObject, iControllerListBoxButtonProduto)
+    private
+      FParent : TComponent;
+    public
+    constructor Create(AOwner : TComponent);
+    destructor Destroy; override;
+    class function New(AOwner : TComponent) : iControllerListBoxButtonProduto;
+    function ShowForm : iControllerListBoxButtonProduto;
+  end;
+
+implementation
+
+{ TControllerListBoxButtonProduto }
+
+constructor TControllerListBoxButtonProduto.Create(AOwner: TComponent);
+begin
+  FParent := AOwner;
+end;
+
+destructor TControllerListBoxButtonProduto.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerListBoxButtonProduto.New(
+  AOwner: TComponent): iControllerListBoxButtonProduto;
+begin
+  Result := Self.Create(AOwner);
+end;
+
+function TControllerListBoxButtonProduto.ShowForm: iControllerListBoxButtonProduto;
+begin
+
+end;
+
+end.

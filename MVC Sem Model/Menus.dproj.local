@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/06/20 13:51:44.000.262,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 13:59:29.000.772,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:31:36.000.352,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:33:22.000.953,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 21:34:00.000.652,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/06/20 22:05:55.000.069,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/07/08 09:07:40.000.704,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 08:39:39.000.224,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 11:48:27.000.986,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2017/08/05 11:48:27.000.232,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/05 11:48:29.000.089,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2017/08/11 10:52:08.000.037,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/12 15:42:04.000.341,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/15 10:02:40.000.324,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/18 00:20:19.000.612,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 10:58:19.000.448,=C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/08/25 10:58:59.000.624,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\View\Menus.View.Principal.pas</Transaction>
+    <Transaction>2017/08/25 10:58:59.000.624,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Unit2.fmx=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\View\Menus.View.Principal.fmx</Transaction>
+    <Transaction>2017/08/25 10:59:04.000.760,C:\Users\thuli\Documents\Embarcadero\Studio\Projects\Project1.dproj=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Menus.dproj</Transaction>
+    <Transaction>2017/08/25 10:59:13.000.229,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 10:59:29.000.802,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.Interfaces.pas</Transaction>
+    <Transaction>2017/08/25 10:59:54.000.331,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 11:00:30.000.116,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Button.Default.pas</Transaction>
+    <Transaction>2017/08/25 11:12:35.000.267,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 11:12:53.000.000,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Buttons.pas</Transaction>
+    <Transaction>2017/08/25 11:18:58.000.099,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 11:19:13.000.120,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Default.pas</Transaction>
+    <Transaction>2017/08/25 14:22:56.000.096,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 14:23:13.000.592,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Button.Factory.pas</Transaction>
+    <Transaction>2017/08/25 14:23:27.000.502,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 14:23:41.000.552,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Button.Produto.pas</Transaction>
+    <Transaction>2017/08/25 14:29:58.000.172,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 14:30:06.000.802,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 14:30:43.000.566,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.fmx=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\View\Menus.View.Produto.fmx</Transaction>
+    <Transaction>2017/08/25 14:30:43.000.566,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\View\Menus.View.Produto.pas</Transaction>
+    <Transaction>2017/08/25 14:37:35.000.861,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Buttons.pas=</Transaction>
+    <Transaction>2017/08/25 14:37:50.000.957,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 14:38:14.000.584,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Factory.pas</Transaction>
+    <Transaction>2017/08/25 14:38:20.000.632,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/25 14:38:36.000.433,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Principal.pas</Transaction>
+    <Transaction>2017/08/28 21:57:50.000.519,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Itens.Factory.pas</Transaction>
+    <Transaction>2017/08/28 21:57:50.000.546,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Produtos.pas</Transaction>
+    <Transaction>2017/08/28 21:57:50.000.512,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Itens.Default.pas</Transaction>
+    <Transaction>2017/08/28 21:57:50.000.503,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Itens.Cliente.pas</Transaction>
+    <Transaction>2017/08/28 21:57:50.000.469,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Clientes.pas</Transaction>
+    <Transaction>2017/08/28 21:57:50.000.528,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Itens.Produto.pas</Transaction>
+    <Transaction>2017/08/28 21:58:00.000.095,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\View\Menus.View.Clientes.pas</Transaction>
+    <Transaction>2017/08/28 21:59:10.000.241,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Button.Default.pas=</Transaction>
+    <Transaction>2017/08/28 21:59:12.000.858,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Button.Factory.pas=</Transaction>
+    <Transaction>2017/08/28 21:59:16.000.164,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.ListBox.Button.Produto.pas=</Transaction>
+    <Transaction>2017/08/29 11:23:12.251,=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+    <Transaction>2017/08/29 11:23:24.650,D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Controller\Menus.Controller.Forms.Default.pas=D:\Projetos\Cursos\Delphi Updates\Módulo lll\MVC Sem Model\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="android-support-v4.dex.jar"/>
+    <File Path="cloud-messaging.dex.jar"/>
+    <File Path="fmx.dex.jar"/>
+    <File Path="google-analytics-v2.dex.jar"/>
+    <File Path="google-play-billing.dex.jar"/>
+    <File Path="google-play-licensing.dex.jar"/>
+    <File Path="google-play-services.dex.jar"/>
+    <File Path="Controller"/>
+    <File Path="Controller\Menus.Controller.Interfaces.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Default.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Factory.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Principal.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Clientes.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Itens.Cliente.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Itens.Default.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Itens.Factory.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Itens.Produto.pas"/>
+    <File Path="Controller\Menus.Controller.ListBox.Produtos.pas"/>
+    <File Path="Controller\Menus.Controller.Forms.Default.pas"/>
+    <File Path="View"/>
+    <File Path="View\Menus.View.Principal.pas"/>
+    <File Path="View\Menus.View.Principal.fmx"/>
+    <File Path="View\Menus.View.Produto.pas"/>
+    <File Path="View\Menus.View.Produto.fmx"/>
+    <File Path="View\Menus.View.Clientes.pas"/>
+    <File Path="View\Menus.View.Clientes.fmx"/>
+  </ProjectSortOrder>
+</BorlandProject>

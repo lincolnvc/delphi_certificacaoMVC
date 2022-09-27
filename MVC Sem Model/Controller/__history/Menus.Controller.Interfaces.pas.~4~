@@ -1,0 +1,24 @@
+unit Menus.Controller.Interfaces;
+
+interface
+
+uses
+  System.Classes, FMX.Types;
+
+type
+  iControllerButtonListBoxDefault = interface
+    ['{93430516-231A-4301-95C9-3452EC7ABBB9}']
+    function Name(Value : String) : iControllerButtonListBoxDefault;
+    function Text(Value : String) : iControllerButtonListBoxDefault;
+    function StyleLookup(Value : String) : iControllerButtonListBoxDefault;
+    function onClick(Value : TNotifyEvent) : iControllerButtonListBoxDefault;
+    function Button : TFMXObject;
+  end;
+
+  iControllerListBoxButtons = interface
+    ['{6D982F61-7B24-40AF-8851-0017CA43B6E7}']
+  end;
+
+implementation
+
+end.

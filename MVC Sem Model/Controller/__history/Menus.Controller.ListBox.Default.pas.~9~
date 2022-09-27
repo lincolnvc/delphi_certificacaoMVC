@@ -1,0 +1,73 @@
+unit Menus.Controller.ListBox.Default;
+
+interface
+
+uses Menus.Controller.Interfaces, System.Classes, FMX.ListBox, FMX.Types;
+
+type
+  TControllerListBoxDefault = class(TInterfacedObject, iControllerListBoxDefault)
+  private
+    FParent: TComponent;
+    FListBox : TListBox;
+  public
+    constructor Create(AOwner: TComponent);
+    destructor Destroy; override;
+    class function New(AOwner: TComponent): iControllerListBoxDefault;
+    function ItemHeight(Value : Integer) : iControllerListBoxDefault;
+    function ListBox : TFMXObject;
+    function AddButton(Value : TFMXObject) : iControllerListBoxDefault;
+    procedure Exibir;
+  end;
+
+implementation
+
+uses
+  FMX.Layouts;
+
+{ TControllerListBoxDefault }
+
+function TControllerListBoxDefault.AddButton(
+  Value: TFMXObject): iControllerListBoxDefault;
+begin
+  Result := Self.
+  FListBox.AddObject(Value);
+end;
+
+constructor TControllerListBoxDefault.Create(AOwner: TComponent);
+begin
+  FParent := AOwner;
+  FListBox := TListBox.Create(FParent);
+  FListBox.ItemHeight := 60;
+end;
+
+destructor TControllerListBoxDefault.Destroy;
+begin
+  FListBox.Free;
+  inherited;
+end;
+
+procedure TControllerListBoxDefault.Exibir;
+begin
+  if FParent is TLayout then
+    TLayout(FParent).AddObject(FListBox);
+end;
+
+function TControllerListBoxDefault.ItemHeight(
+  Value: Integer): iControllerListBoxDefault;
+begin
+  Result := Self;
+  FListBox.ItemHeight := Value;
+end;
+
+function TControllerListBoxDefault.ListBox: TFMXObject;
+begin
+  Result := FListBox;
+end;
+
+class function TControllerListBoxDefault.New(
+  AOwner: TComponent): iControllerListBoxDefault;
+begin
+  Result := Self.Create(AOwner);
+end;
+
+end.

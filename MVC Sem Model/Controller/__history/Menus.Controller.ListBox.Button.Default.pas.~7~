@@ -1,0 +1,70 @@
+unit Menus.Controller.ListBox.Button.Default;
+
+interface
+
+uses
+  System.Classes, Menus.Controller.Interfaces, FMX.ListBox;
+
+type
+  TControllerButtonListBoxDefault = class(TInterfacedObject, iControllerButtonListBoxDefault)
+    private
+      FParent : TComponent;
+      FListBoxItem : TListBoxItem;
+    public
+      constructor Create(AOwner : TComponent);
+      destructor Destroy; override;
+      class function New(AOwner : TComponent) : iControllerButtonListBoxDefault;
+      function Name(Value : String) : iControllerButtonListBoxDefault;
+      function Text(Value : String) : iControllerButtonListBoxDefault;
+      function StyleLookup(Value : String) : iControllerButtonListBoxDefault;
+      function onClick(Value : TNotifyEvent) : iControllerButtonListBoxDefault;
+  end;
+
+implementation
+
+
+
+{ TControllerButtonListBoxDefault }
+
+constructor TControllerButtonListBoxDefault.Create(AOwner: TComponent);
+begin
+  FParent := AOwner;
+  FListBoxItem  := TListBoxItem.Create(FParent);
+end;
+
+destructor TControllerButtonListBoxDefault.Destroy;
+begin
+  FListBoxItem.Free;
+  inherited;
+end;
+
+function TControllerButtonListBoxDefault.Name(
+  Value: String): iControllerButtonListBoxDefault;
+begin
+
+end;
+
+class function TControllerButtonListBoxDefault.New(AOwner : TComponent) : iControllerButtonListBoxDefault;
+begin
+  Result := Self.Create(AOwner);
+end;
+
+function TControllerButtonListBoxDefault.onClick(
+  Value: TNotifyEvent): iControllerButtonListBoxDefault;
+begin
+
+end;
+
+function TControllerButtonListBoxDefault.StyleLookup(
+  Value: String): iControllerButtonListBoxDefault;
+begin
+
+end;
+
+function TControllerButtonListBoxDefault.Text(
+  Value: String): iControllerButtonListBoxDefault;
+begin
+
+end;
+
+end.

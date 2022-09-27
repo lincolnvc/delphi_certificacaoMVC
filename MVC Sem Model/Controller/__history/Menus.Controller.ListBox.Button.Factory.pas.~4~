@@ -1,0 +1,41 @@
+unit Menus.Controller.ListBox.Button.Factory;
+
+interface
+
+uses Menus.Controller.Interfaces, Menus.Controller.ListBox.Button.Produto,
+  System.Classes;
+
+type
+  TControllerListBoxButtonFactory = class(TInterfacedObject, iControllerListBoxButtonFactory)
+    constructor Create;
+    destructor Destroy; override;
+    class function New : iControllerListBoxButtonFactory;
+    function Produto(AOwner : TComponent) : iControllerListBoxButtonProduto;
+  end;
+
+implementation
+
+{ TControllerListBoxButtonFactory }
+
+constructor TControllerListBoxButtonFactory.Create;
+begin
+
+end;
+
+destructor TControllerListBoxButtonFactory.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerListBoxButtonFactory.New: iControllerListBoxButtonFactory;
+begin
+  Result := Self.Create;
+end;
+
+function TControllerListBoxButtonFactory.Produto(AOwner : TComponent) : iControllerListBoxButtonProduto;
+begin
+  Result := TControllerListBoxButtonProduto.New(AOwner);
+end;
+
+end.
